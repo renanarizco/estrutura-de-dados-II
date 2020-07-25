@@ -1,0 +1,7 @@
+E:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\6 - 31-10\CodificacaoBubbleSort\CodificacaoBubbleSort\bin\Debug\CodificacaoBubbleSort.exe.config
+E:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\6 - 31-10\CodificacaoBubbleSort\CodificacaoBubbleSort\bin\Debug\CodificacaoBubbleSort.exe
+E:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\6 - 31-10\CodificacaoBubbleSort\CodificacaoBubbleSort\bin\Debug\CodificacaoBubbleSort.pdb
+E:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\6 - 31-10\CodificacaoBubbleSort\CodificacaoBubbleSort\obj\Debug\CodificacaoBubbleSort.csprojAssemblyReference.cache
+E:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\6 - 31-10\CodificacaoBubbleSort\CodificacaoBubbleSort\obj\Debug\CodificacaoBubbleSort.csproj.CoreCompileInputs.cache
+E:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\6 - 31-10\CodificacaoBubbleSort\CodificacaoBubbleSort\obj\Debug\CodificacaoBubbleSort.exe
+E:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\6 - 31-10\CodificacaoBubbleSort\CodificacaoBubbleSort\obj\Debug\CodificacaoBubbleSort.pdb

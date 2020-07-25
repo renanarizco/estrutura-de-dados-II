@@ -1,0 +1,15 @@
+int temp = 0;
+ 
+            //inicia na posição 1 pois a primeira já contém o primeiro elemento
+            for (int i = 1; i < elementos.Length; i++)
+            {
+                //se o 2º é menor que o primeiro
+                //Verifica se a posição é maior que 0 E... se o ATUAL é menor que o ANTERIOR
+                for (int elem = i; elem > 0 && elementos[elem] < elementos[elem - 1]; elem--)
+                {
+                    //efetua a troca
+                    temp = elementos[elem - 1];
+                    elementos[elem - 1] = elementos[elem];
+                    elementos[elem] = temp;
+                }
+            }

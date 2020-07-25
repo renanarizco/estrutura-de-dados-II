@@ -1,0 +1,23 @@
+SelectionSort
+
+Ordenação por seleção 
+Caracteristica:
+-Simples
+-Ordena por seleções sucessivas
+Como? 
+Realiza varreduras até encontrar o algoritmo de MENOR valor,trocando com o elemento da primeira posição. 
+Realiza as rotinas com n-1 elementos restantes, em seguida com os n-2 elementos restantes, até que reste apenas 1 elemento.
+
+
+Insertion sort
+Caracteristicas:
+-simples
+-ordena por inserções em vetor ordenado
+
+como?
+-considera 2 containers de elementos
+-ordenado
+-nao ordenado
+-inserir um elemento por vez do container não ordenado para o container ordenado
+
+

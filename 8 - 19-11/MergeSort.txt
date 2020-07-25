@@ -1,0 +1,78 @@
+ static void Main(string[] args)
+           {
+            List<int> container_elementos = new List<int>();
+ 
+            int contador_elementos = 0;
+ 
+            while (contador_elementos < 10)
+            {
+                Console.Clear();
+                Console.WriteLine("Informe o valor:");
+                container_elementos.Add(int.Parse(Console.ReadLine()));
+ 
+                contador_elementos++;
+            }
+ 
+            Console.Clear();
+            foreach (var elem in MergeSort(container_elementos))
+                Console.Write(elem + " ");
+ 
+            Console.ReadKey();
+   
+      }
+ 
+       public static List<int> MergeSort(List<int> container_elementos)
+        {
+            if (container_elementos.Count < 2)
+                return container_elementos;
+ 
+            int metade = container_elementos.Count / 2;
+ 
+            List<int> container_esquerda = new List<int>();
+            List<int> container_direita = new List<int>();
+ 
+            for (int x = 0; x < metade; x++) //0 até < metade
+                container_esquerda.Add(container_elementos[x]);
+ 
+            for (int x = metade; x < container_elementos.Count; x++)//metade até o fim
+                container_direita.Add(container_elementos[x]);
+ 
+            //retorna juntanto
+            return Merge(MergeSort(container_esquerda), MergeSort(container_direita));
+        }
+ 
+        //junções
+        public static List<int> Merge(List<int> container_esquerda, List<int> container_direita)
+        {
+            List<int> container_ordenado = new List<int>();
+ 
+            int temp_esq = 0, temp_dir = 0;
+ 
+            //enquanto existirem elementos a serem comparados(juntados)
+            while (temp_esq < container_esquerda.Count && temp_dir < container_direita.Count)
+                if (container_esquerda[temp_esq] < container_direita[temp_dir])
+                {
+                    container_ordenado.Add(container_esquerda[temp_esq]);
+                    temp_esq++;
+                }
+                else
+                {
+                    container_ordenado.Add(container_direita[temp_dir]);
+                    temp_dir++;
+                }
+ 
+            //restaram elementos do lado esquerdo
+            while (temp_esq < container_esquerda.Count)
+            {
+                container_ordenado.Add(container_esquerda[temp_esq]);
+                temp_esq++;
+            }
+ 
+            while (temp_dir < container_direita.Count)
+            {
+                container_ordenado.Add(container_direita[temp_dir]);
+                temp_dir++;
+            }
+ 
+            return container_ordenado;
+        }

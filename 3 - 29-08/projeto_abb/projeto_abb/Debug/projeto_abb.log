@@ -1,0 +1,4 @@
+﻿  abb.cpp
+F:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\3 - 29-08\projeto_abb\projeto_abb\abb.cpp(21,1): warning C4326:  tipo de retorno de 'main' deve ser 'int' em vez de 'void'
+F:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\3 - 29-08\projeto_abb\projeto_abb\abb.h(67): warning C4715:  'arvore_b': nem todos os caminhos de controle retornam um valor
+  projeto_abb.vcxproj -> F:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\3 - 29-08\projeto_abb\Debug\projeto_abb.exe

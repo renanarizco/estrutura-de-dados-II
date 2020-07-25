@@ -1,0 +1,112 @@
+Estruturas unidimensionais-
+pilha, fila, lista
+
+
+Arvore-
+Uma arvore é um conjunto finito de elementos que esta vazio ou é particionado em tres subconjuntos disjuntos: raiz, subarvores esquerda e direita
+Estando no msm nivel são irmãos
+Nós que não possuem filhos são nós folhas
+Relação sempre imediata - pai e filho sem avôs
+
+Arvores binarias-
+Nós com grau menor ou igual a 2
+(grau: com filho imediato)
+
+Arvores generalizadas-
+Nós com grau maior ou igual a zero
+
+Nó Raiz-
+1° nó é a raiz
+
+Nó Interior-
+É o que possui descendentes mas não é a raiz
+
+Nó folha ou terminal-
+Nós que não possuem filhos
+
+Trajetoria-
+Numero de nós que devem ser percorridos para encontrar o valor
+
+Grau do nó-
+numero de descendentes do nó IMEDIATOS
+
+Grau da arvore-
+Maior grau encontrado
+
+Altura da arvore-
+Numero max de niveis dos seus nós sem contar a raiz
+
+Altura do nó-
+A partir do nó conta quantos niveis tem pra baixo
+
+Arvore Estritamente binaria-
+Se todo nó que não é folha numa arvore binária tiver subarvores esquerda e direita nao vazias, a arvore sera considerada uma arvore estritamente binaria (uma de n folhas tem exatamente 2.n-1 nós)
+(todos os nos que tem 1 filho tem necessariamente q ter dois filhos)
+
+Arvore binaria completa-
+é a arvore estritamente binaria que as folhas estão no ultimo nivel
+(tem q ficar retinho no final)
+
+Arvore binaria quase completa-
+tem todos os niveis completos exceto o ultimo
+
+Percorrer arvores-
+Pré-ordem-
+raiz, esquerda e direita
+Em-ordem-
+Esquerda, raiz, direita
+pos-ordem-
+esquerda, direita, raiz
+Por nivel-
+por nivel crescente, de cima pra baixo, e dentro de cada nivel da esquerda pra direita
+
+
+Arvore binaria de buscas-
+UMA ABB NÃO TEM ELEMENTOS REPETIDOS
+Se a arvore estiver vazia - novo nó
+Se a raiz é maior que novo nó - inserir na sub arvore esquerda
+Se a raiz é menor que novo nó - inserir na sub arvore direita
+
+Remoção-
+Se for nó folha só tira
+Se ele tiver um filho eu tiro o numero e
+o pai começa a apontar para o filho do removido
+Remoção de um que possui dois filhos - se um dos filhos nao possui filhos entao utiliza ele para substituir
+Remoção de um que possui dois filhos e se os filhos tiverem filhos entao substitui pelo menor da subarvore direita ou maior valor da subarvore esquerda (pq ele vai ser removido aplica as regras tbm)
+
+
+Árvores balanceadas-
+Uma AB balanceada é uma arvore binaria na qual as alturas das duas subarvores de todo no nunca diferem em mais de 1
+-Após inserções e remoções a árvore deve continuar balanceada e satisfazer a condição de arvore binaria de busca.
+-Desbalanceamento - Nó inserido é descendente esquerdo de um no com fb -1 ou inserido no lado direito e for descendente de fb +1
+-Rotação- Observar os sinais do fb para identificar a rotação.
+-Sinal igual=Rotação simples
+-Sinal diferente=Rotação dupla
+-fb positivo= rotação para esquerda
+-fb negativo= rotação para direita
+-na rotação simples só rotaciona o nó com problema - e é simples quando o filho do fb com problema são os dois positivos ou negativos, quando é diferente pega o valor de cima como base e se for diferente do de baixo é dupla, é esquerda se o valor de cima for positivo 
+-A rotação dupla a esquerda (RDE), a primeira é sempre uma rotação simples a direita (RSD) + uma simples a esquerda (RSE)
+QUANDO FOR SIMPLES GIRA O PROBLEMA, QUANDO É DUPLA, SEMPRE COM O FILHO DPS O PROBLEMA.
+-A rotação dupla a direita (RDD), a primeira é sempre uma rotação simples a esquerda (RSE) + uma simples a direita (RSD)
+
+
+
+03-10
+Algoritmo de huffman
+As folhas sejam o simbolo do alfabeto
+cada galho da arvore seja 1 ou 0 (0 na esquerda e 1 na direita)
+tamanho fixo(2n-1): estritamente binaria
+construir arvore das folhas para a raiz (filho->pai)
+
+como?
+- criar arvore de baixo pra cima usando os 2 simbolos de menor frequencia recursivamente
+- criar nó para cada simbolo
+- inserir nó em fila de prioridade (nós menos frequentes possuem prioridade)
+- enquanto existir nó na fila de prioridade deve-se repetir o processo
+
+1º etapa - construir a tabela de frequencia ou fila de prioridade
+itens de mesmo valor não sao movimentados
+(em "sistemas" o s cai e o resto continua normal)
+o pai dos nós adicionado é a soma das frequencias
+se ja existe um nó com a mesma frequencia, o novo vai embaixo dele na tabela
+

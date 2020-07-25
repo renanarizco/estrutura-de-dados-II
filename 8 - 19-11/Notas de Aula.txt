@@ -1,0 +1,23 @@
+MergeSort
+Ordenação por Junção
+
+Características
+-Ordena por junções sucessivas
+
+Como?
+-Junções sucessivas de 2 containers ordenados em um único container ordenado
+
+-Divide o container em 2 regiões de comprimento (n/2)
+
+-Ordena recursivamente cada região
+
+-Faz a junção(merge) das regiões ordenadas
+
+
+Com um container de x elementos:
+Se x < 2
+	retorna
+Senão
+	ordena a metade do lado esquerdo
+	ordena a metade do lado direito
+	junta as 2 metades

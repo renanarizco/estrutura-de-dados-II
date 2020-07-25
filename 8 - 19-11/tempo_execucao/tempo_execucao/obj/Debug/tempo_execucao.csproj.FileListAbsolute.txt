@@ -1,0 +1,7 @@
+G:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\8 - 19-11\tempo_execucao\tempo_execucao\bin\Debug\tempo_execucao.exe.config
+G:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\8 - 19-11\tempo_execucao\tempo_execucao\bin\Debug\tempo_execucao.exe
+G:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\8 - 19-11\tempo_execucao\tempo_execucao\bin\Debug\tempo_execucao.pdb
+G:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\8 - 19-11\tempo_execucao\tempo_execucao\obj\Debug\tempo_execucao.csprojAssemblyReference.cache
+G:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\8 - 19-11\tempo_execucao\tempo_execucao\obj\Debug\tempo_execucao.csproj.CoreCompileInputs.cache
+G:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\8 - 19-11\tempo_execucao\tempo_execucao\obj\Debug\tempo_execucao.exe
+G:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\8 - 19-11\tempo_execucao\tempo_execucao\obj\Debug\tempo_execucao.pdb

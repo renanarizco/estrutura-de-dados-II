@@ -1,0 +1,7 @@
+E:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\7 - 07-11\CodificacaoSelectionSort\CodificacaoSelectionSort\bin\Debug\CodificacaoSelectionSort.exe.config
+E:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\7 - 07-11\CodificacaoSelectionSort\CodificacaoSelectionSort\bin\Debug\CodificacaoSelectionSort.exe
+E:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\7 - 07-11\CodificacaoSelectionSort\CodificacaoSelectionSort\bin\Debug\CodificacaoSelectionSort.pdb
+E:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\7 - 07-11\CodificacaoSelectionSort\CodificacaoSelectionSort\obj\Debug\CodificacaoSelectionSort.csprojAssemblyReference.cache
+E:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\7 - 07-11\CodificacaoSelectionSort\CodificacaoSelectionSort\obj\Debug\CodificacaoSelectionSort.csproj.CoreCompileInputs.cache
+E:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\7 - 07-11\CodificacaoSelectionSort\CodificacaoSelectionSort\obj\Debug\CodificacaoSelectionSort.exe
+E:\Arquivos\Outros\Faculdade\Faculdade\4 SEMESTRE\Jean\7 - 07-11\CodificacaoSelectionSort\CodificacaoSelectionSort\obj\Debug\CodificacaoSelectionSort.pdb

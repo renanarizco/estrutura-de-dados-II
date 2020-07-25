@@ -1,0 +1,37 @@
+29-10 metodos de ordenação
+
+Algoritmos de pesquisa sequencial e binário
+sequencial - vai de 1 por 1 ate achar
+
+binaria - é possivel se os dados estiverem ordenados
+é mais eficiente que o sequencial
+pre-ordem R E D
+em-ordem E R D
+pos-ordem E D R
+por nivel
+
+ordenação por troca
+-bubblesort
+ordenação por seleção
+-selectionsort
+ordenação por inserção
+-insertionsort
+ordenação por intercalação
+-mergesort
+
+"A complexidade da ordenação da estrutura não deve ser mais complexa que o processo a ser feito na estrutura sem ordenação"
+
+
+bubble sort - metodo simples e ordena por trocas sucessivas
+como? percorre o vetor comparando elementos adjacentes
+troque posições se estiver fora de ordem
+para um vetor de n elementos, n-1 varreduras são feitas para ordenar todos os elementos
+
+bubble sort - 
+eficiencia - custo alto de desempenho, adequado para registros pequenos, inadequado para registros grandes
+como otimizar - finalizar execução quando nenhuma troca for realizada
+
+
+praticando
+desenvolva um outro metodo chamado bolha_otimizado e aplique as modificações necessárias para otimizacao do metodo de ordenação
+
